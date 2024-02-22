@@ -1,11 +1,13 @@
 import React from "react";
 import Heading from "./Heading";
+import ProgressBar from "./ProgressBar";
+import Profile from "../assets/portfolioPicture.jpg";
 
 export default function About() {
   return (
-    <section className="mt-20">
+    <section className="mt-20" id="about">
       <Heading>About</Heading>
-      <div className="container mt-16 px-4 grid grid-cols-2 gap-y-8">
+      <div className="container mt-16 px-4 grid grid-cols-2 lg:grid-cols-4  gap-y-8">
         <div className="flex justify-center items-center flex-col text-neutral-600">
           <div className="bg-primary-150 w-24 h-20 flex items-center justify-center  bgClip">
             <svg
@@ -92,6 +94,38 @@ export default function About() {
           <p className="text-center text-xs">
             Websites don't have to be static, I love making pages come to life.
           </p>
+        </div>
+      </div>
+      <div className="lg:grid lg:grid-cols-2">
+        <div className="container mt-16 px-4 flex flex-col lg:grid-cols-2 items-center justify-center text-neutral-600">
+          <img
+            src={Profile}
+            alt="profile picture"
+            className="object-cover object-top  bgClip w-72 h-72"
+          />
+
+          <h3 className="mt-3 font-semibold text-xl">Who's this guy</h3>
+          <p className="text-center text-xs">
+            I'm a Front-End Developer for Samsung SDS in Gurugram, Haryana. I
+            have serious passion for UI effects, animations and creating
+            intuitive, dynamic user experiences.<br></br>{" "}
+            <a
+              href="#"
+              className="text-blue-500 hover:text-blue-600 duration-300"
+            >
+              Let's make something special
+            </a>
+            .
+          </p>
+        </div>
+        <div className="container mt-16 px-8 flex flex-col gap-4">
+          <ProgressBar width="100%">CSS</ProgressBar>
+          <ProgressBar width="100%">HTML</ProgressBar>
+          <ProgressBar width="100%">javascript</ProgressBar>
+          <ProgressBar width="90%">Tailwind CSS</ProgressBar>
+          <ProgressBar width="90%">DSA</ProgressBar>
+          <ProgressBar width="80%">react</ProgressBar>
+          <ProgressBar width="60%">Nodejs</ProgressBar>
         </div>
       </div>
     </section>
