@@ -18,8 +18,8 @@ export default function Project({ project }) {
       />
       <a
         href="http://"
-        className="absolute bottom-3 left-1/2 -translate-x-1/2 text-xs  md:text-sm
-         border-2 border-solid border-fuchsia-700 uppercase px-2 md:px-5 py-1 opacity-0 group-hover:opacity-100 group-hover:-translate-y-10 duration-300 ease-in-out hover:bg-fuchsia-700 hover:text-white"
+        className="absolute bottom-3 left-1/2 -translate-x-1/2 text-[9px]  md:text-sm
+         border-2 border-solid border-fuchsia-700 uppercase px-1 md:px-5 py-1 opacity-0 group-hover:opacity-100 group-hover:-translate-y-10 duration-300 ease-in-out hover:bg-fuchsia-700 hover:text-white"
       >
         Learn More
       </a>
