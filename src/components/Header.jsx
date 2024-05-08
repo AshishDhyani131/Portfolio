@@ -1,9 +1,10 @@
 import React from "react";
-import { useRef } from "react";
+import Canvas from "./Canvas";
 
 export default function Header() {
   return (
     <header className="h-screen w-screen relative bg-[#141016] ">
+      <Canvas></Canvas>
       <div className="absolute top-1/2 -translate-y-1/2 w-full text-center text-white ">
         <h1 className=" text-2xl font-semibold tracking-wide lg:text-4xl">
           Hello, I'm <span>Ashish Dhyani</span>. <br /> I'm a front-end

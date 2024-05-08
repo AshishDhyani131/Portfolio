@@ -30,9 +30,9 @@ export default function Footer() {
         </svg>
       </a>
       <div className="flex item-center justify-center gap-6">
-        {SocialData.map((socialIcon) => {
+        {SocialData.map((socialIcon, index) => {
           return (
-            <a href="#">
+            <a href="#" key={index}>
               <div className="p-4 bg-grey-50 active:bg-primary-150 focus:bg-primary-50 duration-300">
                 <ion-icon src={socialIcon}></ion-icon>
               </div>

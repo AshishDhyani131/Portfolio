@@ -24,9 +24,9 @@ export default function Projects() {
         </ProjectButton>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-3 px-4 mt-8">
-        {projectsData.map((project) => {
+        {projectsData.map((project, index) => {
           if (!project.projectType.includes(activeBtn)) return;
-          return <Project project={project}></Project>;
+          return <Project project={project} key={index}></Project>;
         })}
       </div>
     </section>

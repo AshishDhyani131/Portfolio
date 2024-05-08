@@ -1,4 +1,4 @@
-import Work1 from "./src/assets/work1.webp";
+import Work1 from "./src/assets/work1.png";
 import Work2 from "./src/assets/work2.jpg";
 import Work3 from "./src/assets/work3.jpg";
 import Work4 from "./src/assets/work4.jpg";
@@ -13,15 +13,15 @@ export const projectsData = [
   {
     id: 1,
     imgSrc: Work1,
-    link: "#href",
-    projectName: "Mostudio Gallery",
+    link: "https://pokeash.netlify.app",
+    projectName: "PokeVerse",
     techStack: ["Tailwind CSS", "ReactJS"],
     projectType: ["all", "react"],
   },
   {
     id: 2,
     imgSrc: Work2,
-    link: "#href",
+    link: "https://ashishdhyani131.github.io/coffeeShop/",
     projectName: "Cafe Muse",
     techStack: ["HTML", "CSS", "Javascript"],
     projectType: ["all", "html/css", "javascript"],
@@ -29,15 +29,15 @@ export const projectsData = [
   {
     id: 3,
     imgSrc: Work3,
-    link: "#href",
-    projectName: "Youtube prototype",
+    link: "https://cryptoash.netlify.app",
+    projectName: "CryptoVerse",
     techStack: ["Tailwind CSS", "ReactJS"],
     projectType: ["all", "react"],
   },
   {
     id: 4,
     imgSrc: Work4,
-    link: "#href",
+    link: "https://bodyfitso.netlify.app/",
     projectName: "Fitness Club",
     techStack: ["Material UI", "ReactJS"],
     projectType: ["all", "react", "html/css"],
@@ -45,7 +45,7 @@ export const projectsData = [
   {
     id: 5,
     imgSrc: Work5,
-    link: "#href",
+    link: "https://delidish.netlify.app",
     projectName: "Omnifood",
     techStack: ["HTML", "CSS", "Javascript"],
     projectType: ["all", "javascript", "html/css"],
